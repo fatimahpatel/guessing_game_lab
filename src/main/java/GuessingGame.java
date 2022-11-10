@@ -9,6 +9,15 @@ public class GuessingGame {
 
         System.out.println("You guessed the number: " + userGuess);
 
+        if (userGuess.equals("secretNumber")){
+            System.out.println("Wow! You guessed correctly. How did you know??");
+
+        }
+        else{
+            System.out.println("Oops, that's not right!");
+        }
+
+
 
 
     }
