@@ -5,10 +5,12 @@ public class GuessingGame {
         Scanner reader = new Scanner(System.in);
         String userGuess = reader.nextLine();
 
+        int userGuessInteger = Integer.parseInt(userGuess);
 
-        System.out.println("You guessed the number: " + userGuess);
 
-        if (userGuess.equals("5")){
+        System.out.println("You guessed the number: " + userGuessInteger);
+
+        if (userGuessInteger == 5){
             System.out.println("Wow! You guessed correctly. How did you know??");
 
         }
