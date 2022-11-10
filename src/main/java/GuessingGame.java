@@ -9,7 +9,7 @@ public class GuessingGame {
 
         System.out.println("You guessed the number: " + userGuess);
 
-        if (userGuess.equals("secretNumber")){
+        if (userGuess.equals(secretNumber)){
             System.out.println("Wow! You guessed correctly. How did you know??");
 
         }
